@@ -16,9 +16,24 @@ The observation space consists of 33 variables corresponding to position, rotati
 The environment is solved if the agent can accumulate an average score of >=30 over 100 consecutive episodes.
 
 
-### Getting Started
+### Dependencies and getting started
 
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+1. Create (and activate) a new environment with Python 3.6.
+	- __Linux__ or __Mac__: 
+	```bash
+	conda create --name drlnd python=3.6
+	source activate drlnd
+	```
+	- __Windows__: 
+	```bash
+	conda create --name drlnd python=3.6 
+	activate drlnd
+	```
+2. clone this repository and install the requirements in the python folder with `pip install ./python`
+
+3. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
 
     - **_Version 1: One (1) Agent_**
         - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
@@ -30,7 +45,7 @@ The environment is solved if the agent can accumulate an average score of >=30 o
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
-2.  unzip (or decompress) the file and make sure you specify its path correctly in the  `ContinuousControl-Reacher.ipynb` notebook, for me it is in `/data/Reacher_Linux/Reacher.x86_64`
+4.  unzip (or decompress) the file and make sure you specify its path correctly in the  `ContinuousControl-Reacher.ipynb` notebook, for me it is in `/data/Reacher_Linux/Reacher.x86_64`
 
 ### Instructions
 
@@ -40,4 +55,7 @@ Feel free to watch an agent play the environment using the `play_trained_agent.i
 
 ### More Info
 feel free to check [Udacity's repository](https://github.com/udacity/deep-reinforcement-learning/tree/master/p2_continuous-control) for an additional version of the environment and other challenges!
+
+[and their repository in general for more detailed instructions on the project setup] (https://github.com/udacity/deep-reinforcement-learning)
+
 

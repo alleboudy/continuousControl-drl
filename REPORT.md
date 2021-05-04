@@ -81,7 +81,7 @@ and a seed of 13 for reproducibility
  - Episode 400	Average Score: 29.78
  - Episode 404	Average Score: 30.03
 
-Environment solved in 304 episodes!	Average Score: 30.03
+Environment solved in 404 episodes!	Average Score: 30.03
 <img src="images/scores_plot.png">
 
 ### Future work:
